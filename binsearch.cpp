@@ -69,17 +69,17 @@ int main(int argc, char *argv[]){
 int binsearch(int target, int *data, int start, int end)
 {
     int middle = ((start+end)/2);
-    if(data[middle] != target){
-        if(data[middle] > target){
-            start = middle;
-            binsearch (target,data,start,end);
-        }else if(data[middle] < target){
+    int val = data[middle];
+    if( target == val ){
+        return middle;
+    }else if( target < val ){
             end = middle;
             binsearch (target,data,start,end);
+        }else if( target > val ){
+            start = middle;
+            binsearch (target,data,start,end);
         }
-    }else{
-        return middle;
-    }
+
 
 
 }
