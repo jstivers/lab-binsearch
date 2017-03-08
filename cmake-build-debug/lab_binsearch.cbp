@@ -83,9 +83,6 @@
 		<Unit filename="/Users/johnstivers/cs103/lab-binsearch/binsearch.cpp">
 			<Option target="lab_binsearch"/>
 		</Unit>
-		<Unit filename="/Users/johnstivers/cs103/lab-binsearch/lab-binsearch.tar">
-			<Option target="lab_binsearch"/>
-		</Unit>
 		<Unit filename="/Users/johnstivers/cs103/lab-binsearch/sorted_data.in">
 			<Option target="lab_binsearch"/>
 		</Unit>

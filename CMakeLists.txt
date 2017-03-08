@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         binsearch.cpp
-        lab-binsearch.tar
         sorted_data.in
         unsorted_data.in)
 

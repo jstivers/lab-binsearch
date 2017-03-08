@@ -68,6 +68,19 @@ int main(int argc, char *argv[]){
 //  or -1 if the target value is not in the list
 int binsearch(int target, int *data, int start, int end)
 {
+    int middle = ((start+end)/2);
+    if(data[middle] != target){
+        if(data[middle] > target){
+            start = middle;
+            binsearch (target,data,start,end);
+        }else if(data[middle] < target){
+            end = middle;
+            binsearch (target,data,start,end);
+        }
+    }else{
+        return middle;
+    }
+
 
 }
 
