@@ -70,17 +70,21 @@ int binsearch(int target, int *data, int start, int end)
 {
     int middle = ((start+end)/2);
     int val = data[middle];
-    if( target == val ){
-        return middle;
-    }else if( target < val ){
-            end = middle;
-            binsearch (target,data,start,end);
-        }else if( target > val ){
-            start = middle;
-            binsearch (target,data,start,end);
+
+    if(start == middle){
+        return -1;
         }
-
-
+        else if( target == val ){
+            return middle;
+        }
+            else if( target < val ){
+                    end = middle;
+                    return binsearch (target,data,start,end);
+                }
+                    else if( target > val ){
+                            start = middle;
+                            return binsearch (target,data,start,end);
+                        }
 
 }
 
