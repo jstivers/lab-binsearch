@@ -45,7 +45,7 @@ int main(int argc, char *argv[]){
   cin >> target;
 
   // Uncomment the line below for part 2
-  // sort(data, count);
+    sort(data, count);
 
   // Call binary search
   int retval = binsearch(target,data,0,count);
@@ -94,5 +94,14 @@ int binsearch(int target, int *data, int start, int end)
 // You aren't allowed to change the prototype of this function
 void sort(int *data, int len)
 {
-
+    int k, i, j;
+    {
+        if (data[i] < data[j])
+            {
+                k = data[i];
+                data[i] = data[j];
+                data[j] = k;
+                sort(data,len);
+            }
+    }
 }
