@@ -71,17 +71,17 @@ int binsearch(int target, int *data, int start, int end)
     int middle = ((start+end)/2);
     int val = data[middle];
 
-    if(start == middle){
+    if(start == end){
         return -1;
         }
-        else if( target == val ){
+    else if( target == val ){
             return middle;
         }
-            else if( target < val ){
+    else if( target < val ){
                     end = middle;
                     return binsearch (target,data,start,end);
                 }
-                    else if( target > val ){
+    else if( target > val ){
                             start = middle;
                             return binsearch (target,data,start,end);
                         }
@@ -94,14 +94,15 @@ int binsearch(int target, int *data, int start, int end)
 // You aren't allowed to change the prototype of this function
 void sort(int *data, int len)
 {
-    int k, i, j;
-    {
-        if (data[i] < data[j])
+    int k;
+    for(int z = 0; z < len;z++ ){
+        for(int l = z;l < len; l++){
+            if (data[z] > data[l])
             {
-                k = data[i];
-                data[i] = data[j];
-                data[j] = k;
-                sort(data,len);
+                k = data[z];
+                data[z] = data[l];
+                data[l] = k;
             }
+        }
     }
 }

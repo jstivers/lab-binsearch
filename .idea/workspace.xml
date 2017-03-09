@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/unsorted_data.in">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file leaf-file-name="binsearch.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binsearch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="151">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -312,7 +312,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sorted_data.in" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_binsearch" TARGET_NAME="lab_binsearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_binsearch" RUN_TARGET_NAME="lab_binsearch">
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="unsorted_data.in" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_binsearch" TARGET_NAME="lab_binsearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_binsearch" RUN_TARGET_NAME="lab_binsearch">
       <envs />
       <method />
     </configuration>
@@ -334,7 +334,7 @@
       <workItem from="1488932531150" duration="1519000" />
       <workItem from="1488934167484" duration="2147000" />
       <workItem from="1488944005755" duration="4717000" />
-      <workItem from="1489082950241" duration="1055000" />
+      <workItem from="1489082950241" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1488935654512</created>
@@ -357,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489018361809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push">
+      <created>1489084046466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489084046466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9438000" />
+    <option name="totallyTimeSpent" value="11615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/unsorted_data.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -519,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/binsearch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="151">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
