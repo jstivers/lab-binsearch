@@ -68,11 +68,15 @@ int main(int argc, char *argv[]){
 //  or -1 if the target value is not in the list
 int binsearch(int target, int *data, int start, int end)
 {
+
+    cout << target << "\t start = " << data[start] << "\t end = " << data[end] << endl;
     int middle = ((start+end)/2);
     int val = data[middle];
 
     if(start == end){
+        //cout<<"reached";
         return -1;
+
         }
     else if( target == val ){
             return middle;
