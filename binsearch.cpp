@@ -46,7 +46,6 @@ int main(int argc, char *argv[]){
 
   // Uncomment the line below for part 2
     sort(data, count);
-
   // Call binary search
   int retval = binsearch(target,data,0,count);
 
@@ -68,26 +67,25 @@ int main(int argc, char *argv[]){
 //  or -1 if the target value is not in the list
 int binsearch(int target, int *data, int start, int end)
 {
-
-    cout << target << "\t start = " << data[start] << "\t end = " << data[end] << endl;
     int middle = ((start+end)/2);
     int val = data[middle];
 
-    if(start == end){
-        //cout<<"reached";
-        return -1;
-
-        }
-    else if( target == val ){
+        if( target == val ){
             return middle;
         }
-    else if( target < val ){
-                    end = middle;
-                    return binsearch (target,data,start,end);
+        else if( target < val ){
+            if(end == middle){
+                return -1;
+            }
+            end = middle;
+            return binsearch (target,data,start,end);
                 }
-    else if( target > val ){
-                            start = middle;
-                            return binsearch (target,data,start,end);
+        else if( target > val ){
+            if(start == middle){
+                return -1;
+            }
+            start = middle;
+            return binsearch (target,data,start,end);
                         }
 
 }
